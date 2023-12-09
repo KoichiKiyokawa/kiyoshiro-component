@@ -1,0 +1,9 @@
+{
+	"extends": ["github>KoichiKiyokawa/renovate-config", "helpers:pinGitHubActionDigests"],
+	"packageRules": [
+		{
+			"matchDepTypes": ["devDependencies"],
+			"automerge": true
+		}
+	]
+}
