@@ -23,7 +23,7 @@
 		"happy-dom": "^12.10.3",
 		"react": "18.2.0",
 		"typescript": "5.3.3",
-		"vitest": "1.0.3"
+		"vitest": "1.0.4"
 	},
 	"packageManager": "pnpm@8.12.0"
 }
