@@ -1,0 +1,143 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`create button component with decoration props(outer, inner, ...) > 'button as link' 1`] = `
+<DocumentFragment>
+  <div
+    class="outer"
+  >
+    <a
+      class="button"
+      data-variant="primary"
+      href="..."
+    >
+      <div
+        class="inner"
+      >
+        <span
+          class="pre1"
+        >
+          pre1
+        </span>
+        <span
+          class="pre2"
+        >
+          pre2
+        </span>
+        link
+        <span
+          class="post1"
+        >
+          post1
+        </span>
+        <span
+          class="post2"
+        >
+          post2
+        </span>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`create button component with decoration props(outer, inner, ...) > 'primary button' 1`] = `
+<DocumentFragment>
+  <div
+    class="outer"
+  >
+    <button
+      class="button"
+      data-variant="primary"
+      type="button"
+    >
+      <div
+        class="inner"
+      >
+        <span
+          class="pre1"
+        >
+          pre1
+        </span>
+        <span
+          class="pre2"
+        >
+          pre2
+        </span>
+        Click me
+        <span
+          class="post1"
+        >
+          post1
+        </span>
+        <span
+          class="post2"
+        >
+          post2
+        </span>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`create normal button component > 'button as disabled link' 1`] = `
+<DocumentFragment>
+  <div
+    aria-disabled="true"
+    class="button"
+    data-variant="primary"
+  >
+    link
+  </div>
+</DocumentFragment>
+`;
+
+exports[`create normal button component > 'button as link' 1`] = `
+<DocumentFragment>
+  <a
+    class="button"
+    data-variant="primary"
+    href="..."
+  >
+    link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`create normal button component > 'disabled button' 1`] = `
+<DocumentFragment>
+  <button
+    aria-disabled="true"
+    class="button"
+    data-variant="primary"
+    disabled=""
+    type="button"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`create normal button component > 'primary button' 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    data-variant="primary"
+    type="button"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`create normal button component > 'secondary button' 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    data-variant="secondary"
+    type="button"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
