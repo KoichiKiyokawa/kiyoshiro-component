@@ -1,5 +1,7 @@
 # @kiyoshiro/component
 
+[![CI status](/workflows/CI/badge.svg)](/actions)
+
 ## Install
 
 ```bash
