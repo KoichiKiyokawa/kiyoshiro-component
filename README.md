@@ -1,5 +1,7 @@
 # @kiyoshiro/component
 
+[![CI](https://github.com/KoichiKiyokawa/kiyoshiro-component/actions/workflows/ci.yml/badge.svg)](https://github.com/KoichiKiyokawa/kiyoshiro-component/actions/workflows/ci.yml)
+
 ## Install
 
 ```bash
