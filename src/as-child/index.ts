@@ -1,1 +1,1 @@
-export { createComponent } from "./create-component"
+export { createComponent, type PropsWithAsChild } from "./create-component"

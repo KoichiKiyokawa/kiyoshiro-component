@@ -9,7 +9,7 @@ type Options<E extends keyof React.JSX.IntrinsicElements> = {
 	inner?: React.FC<React.PropsWithChildren>
 }
 
-type ComponentProps<E extends keyof React.JSX.IntrinsicElements, P> = P &
+export type PropsWithAsChild<E extends keyof React.JSX.IntrinsicElements, P> = P &
 	(
 		| { asChild: true; children: React.ReactElement }
 		| ({ asChild?: false } & React.ComponentPropsWithRef<E>)
@@ -28,7 +28,7 @@ export function createComponent<E extends keyof React.JSX.IntrinsicElements, P>(
 ) {
 	return forwardRef(
 		(
-			{ asChild = false, children, ...restProps }: ComponentProps<E, P>,
+			{ asChild = false, children, ...restProps }: PropsWithAsChild<E, P>,
 			ref: React.ComponentPropsWithRef<E>["ref"],
 		) => {
 			const { baseElement, props, outer, inner, preChildren, postChildren } =
@@ -51,5 +51,5 @@ export function createComponent<E extends keyof React.JSX.IntrinsicElements, P>(
 
 			return outer ? outer({ children: clonedElement }) : clonedElement
 		},
-	) as React.FC<ComponentProps<E, P>>
+	) as React.FC<PropsWithAsChild<E, P>>
 }
