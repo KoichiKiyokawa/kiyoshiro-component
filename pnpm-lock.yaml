@@ -12,8 +12,8 @@ devDependencies:
     specifier: 16.0.0
     version: 16.0.0(@testing-library/dom@10.0.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)
   '@tsconfig/vite-react':
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 7.0.1
+    version: 7.0.1
   '@types/react':
     specifier: 18.2.47
     version: 18.2.47
@@ -587,8 +587,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@tsconfig/vite-react@3.0.0:
-    resolution: {integrity: sha512-haOFbphpavQ1+eyQjeqvlz7sRkQue/bS0GvFmraHml31Ufhv+7juUSc8PVe0In7sly+n+5zTLmzc287KciiGXg==}
+  /@tsconfig/vite-react@7.0.1:
+    resolution: {integrity: sha512-IVbW532kRhqqiMbX1N+vnGYb+B6vNBw5FM/QXh1wGZOHG8HNeBzGEO8irFSNQUThg9mAHiNirCdwjsYeRyvU+Q==}
     dev: true
 
   /@types/aria-query@5.0.4:

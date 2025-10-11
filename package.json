@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.4.1",
 		"@testing-library/react": "16.0.0",
-		"@tsconfig/vite-react": "3.0.0",
+		"@tsconfig/vite-react": "7.0.1",
 		"@types/react": "18.2.47",
 		"@vitejs/plugin-react-swc": "3.5.0",
 		"happy-dom": "^20.0.0",
