@@ -19,7 +19,7 @@
 		"@testing-library/react": "16.0.0",
 		"@tsconfig/vite-react": "3.0.0",
 		"@types/react": "18.2.47",
-		"@vitejs/plugin-react-swc": "3.5.0",
+		"@vitejs/plugin-react-swc": "4.1.0",
 		"happy-dom": "^20.0.0",
 		"react": "18.2.0",
 		"typescript": "5.3.3",
