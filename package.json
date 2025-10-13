@@ -15,7 +15,7 @@
 		"react": ">=18"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.4.1",
+		"@biomejs/biome": "2.2.6",
 		"@testing-library/react": "16.0.0",
 		"@tsconfig/vite-react": "3.0.0",
 		"@types/react": "18.2.47",
